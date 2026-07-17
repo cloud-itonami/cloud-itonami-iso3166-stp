@@ -1,0 +1,13 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "stp.dish.calulu", :name "Calulu", :country "STP", :kind :dish, :summary "Traditional dish of Sao Tome and Principe prepared with grouper or smoked fish, prawns, tomato, okra, aubergine, onion and spices including grains of paradise.", :url "https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "stp.dish.arroz-doce", :name "Arroz doce", :country "STP", :kind :dish, :summary "Rice pudding in Sao Tomean cuisine, prepared with sweet corn and coconut.", :url "https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "stp.dish.estufa-de-morcego", :name "Estufa de morcego", :country "STP", :kind :dish, :summary "Bat stew, described as a delicacy in the cuisine of Sao Tome and Principe.", :url "https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "stp.beverage.palm-wine", :name "Palm wine", :country "STP", :kind :beverage, :summary "Considered a national drink of Sao Tome and Principe.", :url "https://en.wikipedia.org/wiki/Cuisine_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "stp.product.cocoa", :name "Cocoa", :country "STP", :kind :product, :summary "Primary cash crop of Sao Tome and Principe, accounting for 54% of the country's exports in 2021.", :url "https://en.wikipedia.org/wiki/Cocoa_production_in_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Parque_Natural_Ob%C3%B4_de_S%C3%A3o_Tom%C3%A9", :id "stp.heritage.obo-natural-park", :kind :heritage, :name-local "Parque Natural Obô de São Tomé", :country "STP", :retrieved-at "2026-07-17", :summary "Natural park of Sao Tome and Principe covering 195 sq km of the island of Sao Tome.", :name "Obo Natural Park", :url-provenance :wikipedia-en}
+]
