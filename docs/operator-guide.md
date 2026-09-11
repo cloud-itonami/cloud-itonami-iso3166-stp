@@ -39,6 +39,6 @@ Tomé and Príncipe (unlike some sibling jurisdictions in this actor
 family) -- the operative legal basis is **Lei nº 8/2009**, administered
 by the contracting authorities themselves. There is no national
 e-procurement portal on file either. If you find a verifiable source for
-either, extend `src/marketentry/facts.cljc`'s `catalog` -- do not
+either, extend `src/marketentry/facts.cljk`'s `catalog` -- do not
 hand-edit a claim into this guide or any other doc without an official
 source.

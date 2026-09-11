@@ -6,7 +6,7 @@
   :name-local "São Tomé e Príncipe"
   :wikidata "Q1039"
   :head-role "entidades adjudicantes sob a Lei nº 8/2009 / DGRN (commercial registration)"
-  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored. Corrected 2026-07-22: the earlier value here (\"ARMP / public procurement\") named a regulator that could NOT be independently verified for Sao Tome and Principe specifically -- see src/marketentry/facts.cljc and README.md for the research basis of this correction."
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored. Corrected 2026-07-22: the earlier value here (\"ARMP / public procurement\") named a regulator that could NOT be independently verified for Sao Tome and Principe specifically -- see src/marketentry/facts.cljk and README.md for the research basis of this correction."
   :contact-page "https://www.wikidata.org/wiki/Q3932"
   :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
   :hq {:line-en "São Tomé" :country "stp" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3932" :last-verified "2026-07-10" :sourcing "authoritative"}
