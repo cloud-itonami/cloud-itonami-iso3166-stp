@@ -10,7 +10,7 @@ registration via the Guiché Único para Empresas). **Six** governor checks,
 not the AGO reference's seven -- see `src/marketentry/governor.cljk` for why.
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 ## Correction: this repo previously claimed "ARMP"
