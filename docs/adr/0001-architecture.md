@@ -9,6 +9,6 @@ registration, so there is no analog of AGO's `nif-unverified` check.
 
 This repo's original scaffold claimed a named regulator "ARMP" for São
 Tomé and Príncipe; that claim could not be independently verified and has
-been removed from `src/marketentry/facts.cljc`, `organization.edn`,
+been removed from `src/marketentry/facts.cljk`, `organization.edn`,
 `README.md` and `docs/`. See `docs/business-model.md` Trust Controls for
 the research basis.

@@ -7,7 +7,7 @@ the `cloud-itonami-iso3166-ago` reference implementation.
 
 Flagship check: `commercial-registration-missing` (DGRN commercial/company
 registration via the Guiché Único para Empresas). **Six** governor checks,
-not the AGO reference's seven -- see `src/marketentry/governor.cljc` for why.
+not the AGO reference's seven -- see `src/marketentry/governor.cljk` for why.
 
 ```
 clojure -M:dev:test
@@ -22,7 +22,7 @@ Côte d'Ivoire, DR Congo, Benin and Cape Verde, but found **no evidence** such
 a body exists for São Tomé and Príncipe specifically, and a direct fetch of
 São Tomé's own government registry site (`dgrn.gov.st`) made no mention of
 any procurement regulatory body by that name or any other. This repo no
-longer states that claim anywhere (`src/marketentry/facts.cljc`,
+longer states that claim anywhere (`src/marketentry/facts.cljk`,
 `organization.edn`, `docs/`). What IS verified, and is what this actor's
 catalog now cites:
 
@@ -51,7 +51,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Sao Tome and Principe:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
